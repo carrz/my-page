@@ -1,0 +1,32 @@
+@media (min-width: 0px) and (max-width: 1220px) {
+  [ class*="col-"]{
+    width: 100%;
+  }
+  .links, .steven-img{
+    display: none;
+  }
+  .fa-bars{
+    display: inline-block;
+    position: absolute;
+    font-size: 1.3em;
+    right: 1em;
+    top: 1em;
+  }
+  .principal{
+    padding: 3em, 0;
+  }
+  .title-div{
+    padding: 0;
+    text-align: center;
+  }
+  .info-div{
+    padding-left: 10%;
+  }
+  .contact, .card{
+    margin-left: 10%;
+  }
+  .contact, .card-div{
+    padding-top: 4em;
+  }
+ }
+

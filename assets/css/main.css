@@ -1,0 +1,129 @@
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+/*Header------------------------------------------------------------------------------*/
+header{
+  background: linear-gradient(to bottom right, #29074C, #812895);
+  height: 3.5em;
+  color: #FFF;
+}
+h3{
+  padding-top: 1em;
+  padding-left: 10%;
+}
+.link-div{
+  position: absolute;
+  padding-top: 1.5%;
+  right: 2em;
+}
+.links{
+  display: inline-block;
+  padding-left: 1em;
+  color: #D8ADFF;
+}
+.link{
+  padding-left: 19em;
+  font-weight: 700;
+  color: #FFF;
+}
+.fa-bars{
+  display: none;
+}
+
+/*Section 1: Principal----------------------------------------------------------------*/
+.principal{
+  background-image: url(../images/universe-quinki.jpg);
+  background-size: cover;
+  margin: 0;
+  padding:3em;
+  padding-bottom: 6em;
+}
+.title-div{
+  padding-left: 20%
+}
+.steven-img{
+  width: 8em;
+  height: 8em;
+  object-fit: cover;
+}
+h1{
+  font-size: 5em;
+  color: #FFF;
+  display: inline-block;
+}
+
+/*Section 2: Information---------------------------------------------------------------*/
+.info, .cards{
+  padding-top: 2em;
+}
+.description{
+  width: 60%;
+}
+.info-div{
+  color: #D8ADFF;
+  padding-left: 20%;
+  width: 96%;
+}
+.contact{
+  width: 35%;
+  color: #D8ADFF;
+}
+.title{
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  color: #812895;
+}
+.break{
+  padding-bottom: 1em;
+}
+.call-button{
+  margin-top: 3em;
+}
+button{
+  background-color: #812895;
+  height: 3em;
+  width: 12em;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5em;
+}
+
+/*Section 3: Cards-------------------------------------------------------------------*/
+.cards{
+  padding-top: 3em;
+}
+.card-div{
+  width: 30%;
+}
+.gem-img{
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+}
+.card{
+  width: 75%;
+  height: 30em;
+  margin-left: 40%;
+  position: relative;
+}
+.card-title{ 
+  color: #D8ADFF;
+  width: 100%;
+  padding-top: 2em;
+}
+.button{
+  position: absolute;
+  bottom: 5em;
+}
+
+/*Footer------------------------------------------------------------------------------*/
+footer{
+  background-color: #812895;
+  text-align: center;
+  color: #D8ADFF;
+  font-size: 1.3em;
+  padding: 1.5em;
+  margin-top: 2em;
+}
